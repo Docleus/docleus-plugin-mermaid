@@ -1,0 +1,4 @@
+overrides:
+  # elkjs is EPL-2.0, which the license policy does not allow. mermaid only
+  # loads it for `layout: elk`; the stub makes that layout fail with an error.
+  elkjs: link:./stubs/elkjs
